@@ -12,6 +12,7 @@ header{
 }
 main section:nth-child(odd){
     background-color:rgb(26, 188, 156) ;
+    color: white;
 }
 img{
     width:100%;
@@ -21,5 +22,29 @@ footer{
     color: white;
 }
 footer section:last-child{
-    background-color:rgb(44, 62, 80) ;
+    background-color:rgb(44, 62, 80) ;  
+}
+.box{
+    width: 10%;
+    height: 2px;
+    background-color: currentColor;
+    display: inline-block;
+}
+.border{
+    border: 1px solid black;
+    justify-content: center;
+}
+.fa-star{
+    vertical-align: sub;
+    color: currentColor;
+}
+i{
+    display: inline-block;
+}
+.fa-brands{
+    aspect-ratio: 1/1;
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid currentColor;
+    border-radius: 100%;
 }
