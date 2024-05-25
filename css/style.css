@@ -29,15 +29,11 @@ footer section:last-child{
     background-color:rgb(44, 62, 80) ;  
 }
 .box{
-    width: 10%;
     height: 2px;
-    background-color: currentColor;
-    display: inline-block;
 }
 .border{
     border: 1px solid black;
     justify-content: center;
-    justify-self: ;
 }
 .fa-star{
     vertical-align: sub;
