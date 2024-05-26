@@ -42,8 +42,5 @@ footer section:last-child{
 i{
     display: inline-block;
 }
-.fa-brands{
-     aspect-ratio: 1/1;
-    border: 1px solid currentColor;
-}
+
  
