@@ -38,6 +38,12 @@ footer section:last-child{
 i{
     display: inline-block;
 }
-
+.plus{
+    display: none !important;
+    height: 100%;
+} 
+.plus-none:hover+.plus{
+    display: flex !important;;
+}
 
  
