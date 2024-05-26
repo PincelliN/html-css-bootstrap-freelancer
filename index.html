@@ -49,8 +49,8 @@
             <section>
                 <div class="container">
                     <div class="row row-cols-1 gy-1  text-center text-light">
-                        <div class="col">
-                            <img class="avatar" src="img/avatar.svg" alt="avatar">
+                        <div class="col-8 mx-auto">
+                            <img class="img-fluid" src="img/avatar.svg" alt="avatar">
                         </div>
                         <div class="col">
                             <h1>START BOOTSTRAP</h1>
@@ -148,12 +148,12 @@
         <!-- CONCTACT -->
         <section>
             <div class="container">
-                <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-1 justify-content-center gy-2 pb-4">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-1 justify-content-center pb-4">
                     <div class="col text-center">
                         <h2>CONTACT ME</h2>
                     </div>
                     <div class="col">
-                        <div class="row align-items-center justify-content-center">
+                        <div class="row justify-content-center">
                             <div class="col-4 text-center mx-auto ">
                                 <div class="box col-1 d-inline-block w-25 bg-black "></div>
                                 <i class="fa-solid fa-star col-1"></i>
@@ -161,24 +161,26 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col ">
-                        <h6>Name</h6>
-                        <input type="text" placeholder="Name">
+                    <div class="col w-75 ">
+                        <label for="texarea" class="form-label">Name</label>
+                        <input type="text"class="form-control border border-top-0 border-start-0 border-end-0">
                     </div>
-                    <div class="col">
-                        <h6>Email Adress</h6>
-                        <input type="email" placeholder="Email">
+                    <div class="col w-75">
+                        <label for=" email" class="form-label">Email Adress</label>
+                        <input type="email" class="form-control border border-top-0 border-start-0 border-end-0 " placeholder="Email">
                     </div>
-                    <div class="col">
-                        <h6>Phone number</h6>
-                        <input type="number" placeholder="Phone number">
+                    <div class="col w-75">
+                        <label for="numer" class="form-label">Phone number</label>
+                        <input type="number" class="form-control border border-top-0 border-start-0 border-end-0 " placeholder="Phone number">
                     </div>
-                    <div class="col">
-                        <h6>Message</h6>
-                        <input type="text" placeholder="Message" aria-details>
+                    <div class="col w-75">
+                        <label for="texarea" class="form-label">Message</label>
+                        <textarea class="form-control border border-top-0 border-start-0 border-end-0 " ></textarea>
                     </div>
-                    <div class="col">
-                        <input type="submit" value="Send">
+                    <div class="col w-75 mt-3 ">
+                        <button class=" btn  btn-success btn-outline-light">
+                            Send
+                        </button>
                     </div>
                 </div>
             </div>
