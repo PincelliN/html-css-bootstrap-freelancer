@@ -10,16 +10,9 @@ header{
 main section:nth-child(odd){
     background-color:rgb(26, 188, 156) ;
     color: white;
-}
-
-header h3{
-    vertical-align: middle;
-    width: 100%;
-}
-
+} 
 footer{
-    background-color: rgb(58, 84, 109);
-  
+    background-color: rgb(58, 84, 109); 
 }
 footer section:last-child{
     background-color:rgb(44, 62, 80) ;  
@@ -27,15 +20,10 @@ footer section:last-child{
 .box{
     height: 2px;
 }
-.border{
-    border: 1px solid black;
-    justify-content: center;
-}
 .fa-star{
     vertical-align: sub;
     color: currentColor;
 }
-
 .plus{
     display: none !important;
     height: 100%;
