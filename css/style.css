@@ -35,9 +35,7 @@ footer section:last-child{
     vertical-align: sub;
     color: currentColor;
 }
-i{
-    display: inline-block;
-}
+
 .plus{
     display: none !important;
     height: 100%;
